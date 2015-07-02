@@ -1,0 +1,45 @@
+{
+  "title": "visited",
+  "name": "visited",
+  "description": "This simple script adds visited functionality for internal links using data attributes and local storage.",
+  "authors": [
+    {
+      "name": "Joel Califa",
+      "email": "joel@joelcalifa.com",
+      "url": "http://joelcalifa.com"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jeremias Menichelli",
+      "email": "jmenichelli@gmail.com",
+      "url": "http://jeremenichelli.github.io"
+    }
+  ],
+  "copyright": "2015",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./dist/visited.js",
+  "url": "https://github.com/joelcalifa/visited.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joelcalifa/visited.js.git"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat-util": "^0.5.2",
+    "gulp-eslint": "^0.15.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/joelcalifa/visited.js/issues"
+  },
+  "homepage": "https://github.com/joelcalifa/visited.js#readme",
+  "directories": {
+    "test": "test"
+  }
+}
