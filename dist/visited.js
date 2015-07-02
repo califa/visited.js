@@ -46,7 +46,7 @@
 
     while (len) {
         link = links[--len];
-        // some IE versions include port number in link host property
+        // fix for IE versions that include port number in link host property always
         linkHost = window.location.port ? link.host : link.host.replace(/:[0-9]+/, '');
 
         if (linkHost === window.location.host &&
